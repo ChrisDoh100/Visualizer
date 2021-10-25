@@ -1,9 +1,25 @@
-* {background-color: rgba(252, 250, 250, 0.76)}
+* {background:rgb(255, 255, 255)}
+
+.btn-cool-blues {
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  border: 2px solid #eee;
+  margin-right:15px;
+}
+.container{
+  float: left;
+}
+.header{
+  float:none
+}
 .values {
-    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-    width: 3px;
+    background-image: linear-gradient(gold,white, green);
+    width: 4px;
     display: inline-block;
     margin: 0 1.5px;
     margin-top: 3%;
+    margin-left: 0%;
     margin-bottom: 2%;
   }

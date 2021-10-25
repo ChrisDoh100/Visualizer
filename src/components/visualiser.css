@@ -1,6 +1,7 @@
-
+* {background-color: rgba(252, 250, 250, 0.76)}
 .values {
-    width: 5px;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    width: 3px;
     display: inline-block;
     margin: 0 1.5px;
     margin-top: 3%;
